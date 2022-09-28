@@ -8,6 +8,9 @@ body , header,html, nav{
 :root{
     --animate-duration: 2800ms;
 }
+button{
+    cursor:pointer;
+}
 nav{
     width: 100%;
     height:auto;
