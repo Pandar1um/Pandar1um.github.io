@@ -9,7 +9,7 @@ body , header,html, nav{
     --animate-duration: 2800ms;
 }
 button{
-    cursor:pointer;
+    cursor: pointer;
 }
 nav{
     width: 100%;
