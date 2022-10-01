@@ -522,6 +522,9 @@ span.btn_txt{
     font-size: 1vw;
 }
 @media (max-width:700px) {
+    a{
+        text-decoration: none;
+    }
     .menu_list, .menu_list a{
         font-size: 3vw;
     }
@@ -590,9 +593,16 @@ span.btn_txt{
     .technologie_btn{
         width:30vw;
         height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 1vw;
     }
     span#technologie_btn_txt{
-        font-size: 1.5vw;
+        position: relative;
+        height: 100%;
+        font-size: 2.2vw;
     }
     #road_map{
         display: flex;
@@ -680,7 +690,24 @@ span.btn_txt{
         z-index: 1;
         font-size: 4vw;
     }
+    span.offer_content_txt{
+        font-size: 2.5vw;
+    }
     #btn_txt{
+        font-size: 2vw;
+    }
+    footer h6{
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .menu_list_footer li a {
+        font-size: 2.5vw;
+    }
+    div#contact_img_wrraper{
+        width: 50%;
+        background-position: 55%;
+    }
+    form input, form textarea{
         font-size: 2vw;
     }
 }
