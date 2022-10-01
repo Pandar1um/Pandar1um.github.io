@@ -518,6 +518,9 @@ footer h6{
     text-decoration: none;
     color: #000000;
 }
+span.btn_txt{
+    font-size: 1vw;
+}
 @media (max-width:700px) {
     .menu_list, .menu_list a{
         font-size: 3vw;
@@ -676,5 +679,8 @@ footer h6{
     h6#offer_title{
         z-index: 1;
         font-size: 4vw;
+    }
+    #btn_txt{
+        font-size: 2vw;
     }
 }
