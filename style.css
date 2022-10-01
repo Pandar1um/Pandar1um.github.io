@@ -662,4 +662,19 @@ footer h6{
         margin-top: 0.5vw;
         margin-bottom: 1.2vw;
     }
+    .offer_content_item{
+        position: absolute;
+        opacity: 0;
+        transition-duration: 1s;
+        transition: ease-out;
+    }
+    .show{
+        opacity: 1;
+        transition-duration: 1s;
+        transition: ease-out;
+    }
+    h6#offer_title{
+        z-index: 1;
+        font-size: 4vw;
+    }
 }
