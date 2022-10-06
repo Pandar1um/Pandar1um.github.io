@@ -352,6 +352,9 @@ img.team_img{
     height: auto;
     transform: scale(1.6);
 }
+img#yanch{
+    transform: scale(1);
+}
 h6.team_name{
     font-family:'Poppins';
     font-size: 1.5vw;
@@ -443,16 +446,17 @@ form{
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
+    padding: 1vw;
+    margin-top: 1.2;
     width: 50%;
 }
 form h6{
-    margin-top: 0;
+    margin-top: 45px;
     color: #000000;
     text-align: center;
     position: relative;
     top: 0;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: 600;
 }
 form input, form textarea{
@@ -527,6 +531,9 @@ span.btn_txt{
     }
     .menu_list, .menu_list a{
         font-size: 3vw;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
     }
     .intro_title{
         width: 90%;
@@ -608,6 +615,9 @@ span.btn_txt{
         display: flex;
         flex-direction: column;
     }
+    div.road_map_content_item{
+        margin-bottom: 40px;
+    }
     div#road_map_content{
         display: flex;
         flex-direction: column;
@@ -646,7 +656,6 @@ span.btn_txt{
     #team{
         margin-top: 30px;
         margin-bottom: 0;
-        height: 120vw;
     }
     .team_title{
         font-size: 8vw;
@@ -654,10 +663,9 @@ span.btn_txt{
     div.team_details_wrraper{
         flex-direction: column;
         justify-content: normal;
-        height: 60vh;
     }
     div.team_details_item{
-        height: 60vw;
+        height: 45vw;
     }
     div.team_img_wrraper{
         width: 27vw;
@@ -689,9 +697,13 @@ span.btn_txt{
     h6#offer_title{
         z-index: 1;
         font-size: 4vw;
+        letter-spacing: 0.1vw;
     }
     span.offer_content_txt{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+    }
+    div.offer_content_item{
+        height: 65vh;
     }
     #btn_txt{
         font-size: 2vw;
